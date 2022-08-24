@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/**************** NAVBAR *****************/
+
+#navbar {
+    width: 75%;
+    display: flex;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar>img {
+    width: 250px;
+}
+
+#nav-right {
+    display: flex;
+    align-items: center;
+}
+
+#nav-right>a,
+.dropdown {
+    margin-left: 4px;
+    padding: 20px 12px;
+    color: #333333db;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.dropbtn {
+    background-color: white;
+    border: none;
+    margin-left: 4px;
+    padding: 20px 12px;
+    color: #333333db;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+#nav-right>a:hover,
+.dropbtn:hover {
+    color: #ff763f;
+}
+
+#btn-login {
+    margin-left: 30px;
+}
+
+#btn-login>a {
+    padding: 10px 36px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff763f;
+    color: #ff763f;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 15%);
+}
+
+#btn-login>a:hover {
+    background-color: rgba(0, 0, 0, 0.040);
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content>a {
+    position: relative;
+    display: block;
+    float: none;
+    /* width: 100%; */
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.dropdown-content>a>img {
+    width: 15%;
+}
+
+.drop-title {
+    font-size: 20px;
+}
+
+.drop-detail {
+    font-size: 19px;
+    color: rgba(40, 51, 56, 0.6);
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(221, 221, 221, 0.597);
+    color: #ff763f;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/**************** TOP-SECTION *****************/
+
+#section-1 {
+    width: 75%;
+    display: grid;
+    margin: auto;
+    margin-top: 1%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 16px;
+}
+
+#left-col {
+    padding-top: 6%;
+}
+
+#left-col>h2 {
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    color: #4f4e53;
+}
+
+#left-col-down {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#left-col-down>h4 {
+    margin-top: 20px;
+    margin-bottom: 63px;
+    padding-right: 50px;
+    color: #4f4e53;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#left-col-down>a {
+    padding: 17px 55px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff763f;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#left-col-down>p {
+    margin-top: 60px;
+    color: #404040;
+    font-size: 19.5px;
+}
+
+#left-col-down>p>a {
+    color: #404040;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#right-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-right: 110px;
+}
+
+
+/**************** SOCIAL MEDIA SECTION *****************/
+
+#social-media {
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#social-media>h4 {
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-size: 23px;
+    color: #4f4e53;
+    margin-bottom: 25px;
+}
+
+#social-imgs {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#social-imgs>img {
+    width: 50%;
+    justify-self: center;
+}
+
+#app-link {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+#app-link>img {
+    width: 15%;
+}
