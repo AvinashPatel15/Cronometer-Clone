@@ -179,6 +179,10 @@ a {
     font-size: 20px;
 }
 
+#left-col-down>a:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 #left-col-down>p {
     margin-top: 60px;
     color: #404040;
@@ -243,4 +247,407 @@ a {
 
 #app-link>img {
     width: 15%;
+    cursor: pointer;
+}
+
+
+/**************** DISCOVER YOUR NUTRITION SECTION *****************/
+
+#section-2 {
+    background-color: #f8f8f8;
+    width: 100%;
+    margin-top: 80px;
+}
+
+#nutrition-part {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+#nutrition-part>h3 {
+    font-weight: 700;
+    color: #4f4e53;
+    font-size: 36px;
+    padding-top: 90px;
+    line-height: 1px;
+}
+
+#nutrition-part>h5 {
+    font-size: 23px;
+    width: 55%;
+    margin: auto;
+    color: #4f4e53d6;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 30px;
+}
+
+#nutrition-list {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+#nutrition-list>div {
+    text-align: center;
+    padding: 15px 15px 10px 15px;
+}
+
+#nutrition-list>#list-1>img {
+    width: 33%;
+}
+
+#nutrition-list>#list-2>img {
+    width: 28%;
+}
+
+#nutrition-list>#list-3>img {
+    width: 30%;
+}
+
+#nutrition-list>div>h5 {
+    font-weight: 600;
+    text-align: center;
+    color: #4f4e53;
+    font-size: 20px;
+    line-height: 1px;
+}
+
+#nutrition-list>div>p {
+    color: #404040ba;
+    font-size: 20px;
+}
+
+
+/**************** HEALTHY HABITS SECTION *****************/
+
+#healthy-part {
+    text-align: center;
+    width: 79%;
+    margin: auto;
+}
+
+#healthy-part>h3 {
+    font-weight: 700;
+    color: #4f4e53;
+    font-size: 36px;
+    margin-top: 90px;
+    line-height: 1px;
+}
+
+#healthy-part>h5 {
+    font-size: 23px;
+    width: 46%;
+    margin: auto;
+    color: #4f4e53d6;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 30px;
+}
+
+#healthy-list {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+#healthy-list>div {
+    text-align: center;
+    padding: 15px 15px 10px 15px;
+}
+
+#healthy-1>img {
+    width: 27%;
+}
+
+#healthy-2>img {
+    width: 26%;
+}
+
+#healthy-3>img {
+    width: 27%;
+}
+
+#healthy-4>img {
+    width: 24%;
+}
+
+#healthy-5>img {
+    width: 29%;
+}
+
+#healthy-6>img {
+    width: 25%;
+}
+
+#healthy-list>div>h5 {
+    font-weight: 700;
+    text-align: center;
+    color: #4f4e53;
+    font-size: 20px;
+}
+
+#healthy-list>div>p {
+    color: #404040ba;
+    font-size: 20px;
+}
+
+
+/**************** SIGN UP SECTION *****************/
+
+#section-4 {
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+#section-4-i {
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#section-4-i>h4 {
+    font-weight: 600;
+    font-size: 29px;
+    width: 55%;
+    margin: auto;
+    color: #4f4e53;
+    line-height: 40px;
+}
+
+#section-4-signup {
+    margin-top: 55px;
+}
+
+#section-4-signup>a {
+    padding: 17px 65px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff763f;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#section-4-signup>a:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/**************** SYNC WITH APPS AND DEVICES SECTION *****************/
+
+#section-5 {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+#section-5>h3 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #4f4e53;
+    line-height: 0px;
+}
+
+#section-5>h5 {
+    font-size: 23px;
+    font-weight: 400;
+    color: #4f4e53;
+}
+
+#section-5>img {
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 75%;
+    margin: auto;
+}
+
+
+/**************** CRONOMETER REVIEWS SECTION *****************/
+
+#section-6 {
+    width: 75%;
+    margin: auto;
+}
+
+#section-6>h3 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #4f4e53;
+    line-height: 0px;
+}
+
+#section-6>h5 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #4f4e53;
+    text-align: center;
+}
+
+#review-1 {
+    display: grid;
+    width: 71%;
+    margin: auto;
+    margin-top: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+    padding: 40px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#review-left>h4 {
+    color: #ff763f;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 125px;
+    padding-left: 30px;
+}
+
+#review-left>a {
+    align-items: center;
+}
+
+#review-left>a>img {
+    width: 32%;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+#review-right>p:nth-child(1) {
+    font-size: 19px;
+    line-height: 28px;
+}
+
+#review-right>p:nth-child(2) {
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+#review-2 {
+    display: grid;
+    width: 71%;
+    margin: auto;
+    margin-top: 70px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+    padding: 40px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#review-2-left>p:nth-child(1) {
+    color: #404040;
+    font-size: 1.125em;
+    line-height: 1.5em;
+}
+
+#review-2-left>p:nth-child(2) {
+    color: #5c5c5c;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: left;
+}
+
+#review-2-right>h4 {
+    color: #ff763f;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+#review-2-right>a>img {
+    width: 32%;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+
+/**************** ABOUT PRO SECTION *****************/
+
+#section-7 {
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 75px;
+}
+
+#section-7-i {
+    display: grid;
+    width: 75%;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+#section-7-i>div {
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#sec-7-left>img {
+    width: 65%;
+    /* margin-left: 20px; */
+}
+
+#sec-7-right>img {
+    width: 45%;
+}
+
+#sec-7-r-h5 {
+    color: #4f4e53;
+    font-size: 22px;
+    line-height: 10px;
+    text-align: center;
+}
+
+#sec-7-r-h5-1 {
+    color: #4f4e53;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+#sec-7-right>a {
+    padding: 12px 45px;
+    border: 1px solid #35934b;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 15%);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    color: #35934b;
+}
+
+#sec-7-right>a:hover {
+    background-color: #ebeaea;
 }
