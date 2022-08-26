@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometer: Track nutrition &amp; count calories</title>
+    <link rel="shortcut icon" href="https://cdn1.cronometer.com/2021/landing/crono-icon-main-nav.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic%7CRoboto:300,300italic,regular,italic,500,500italic,700,700italic,900" media="all" />
+    <link rel="stylesheet" href="./Styles/signup.css">
+</head>
+
+<body>
+    <!----------------------------------------- HEADER -------------------------------------------->
+    <div id="header">
+        <div>
+            <a href="./index.html">
+                <img src="https://cdn1.cronometer.com/2020/landing/cronometer-logo.png" alt="logo">
+            </a>
+        </div>
+    </div>
+    <!----------------------------------------- FORM -------------------------------------------->
+    <h2 id="h2-1">Create Your Free Account</h2>
+    <form id="create-ac">
+
+        <div id="div-1">
+            <input id="email" placeholder="Email Address" type="text" /><br>
+            <input id="password" placeholder="Password" type="text" /><br>
+            <input id="con-password" placeholder="Confirm Password" type="text" />
+        </div>
+
+        <div id="div-2">
+            <h2>Your Body Type</h2>
+            <label for="" class="bold">Sex:</label>
+            <input type="radio" name="sex" id="male">
+            <label for="">Male</label>
+            <input type="radio" name="sex" id="female">
+            <label for="">Female</label><br>
+            <label for="" class="bold">Born:</label>
+            <input type="date" name="Date" id="born-date"><br>
+            <label for="" class="bold">Height:</label>
+
+            <select id="height-feet">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected="selected">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select> &nbsp;'&nbsp;
+
+            <select id="height-inches">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected="selected">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+             </select> &nbsp;"&nbsp; /&nbsp;
+
+            <input id="height-centimeter" type="number" name="height-cm" min="1" max="300" maxlength="3" value="165"><span>cm</span><br>
+            <label for="" class="bold">Weight:</label>
+            <input type="number" id="weight-number" name="weight" min="1" max="2000" maxlength="4" value="150">
+
+            <select id="weight-type">
+                <option value="Pounds">Pounds</option>
+                <option value="Kilograms">Kilograms</option>
+             </select>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
