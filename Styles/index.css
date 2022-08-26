@@ -651,3 +651,169 @@ hr {
 #sec-7-right>a:hover {
     background-color: #ebeaea;
 }
+
+
+/**************** ABOUT US SECTION *****************/
+
+#section-8 {
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+#section-8>h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #4f4e53;
+    margin-top: 90px;
+    line-height: 0px;
+    text-align: center;
+}
+
+#section-8>h5 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #4f4e53;
+    text-align: center;
+    width: 52%;
+    margin: auto;
+}
+
+#section-8>img {
+    width: 80%;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+#section-8>p {
+    width: 77%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    color: #404040;
+}
+
+#section-8>a {
+    border: 1px solid #ff763f;
+    color: #ff763f;
+    box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 70px;
+}
+
+#section-8>a:hover {
+    background-color: #ebeaea;
+}
+
+
+/**************** AFFILIATE SECTION *****************/
+
+#section-9 {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#section-9>h5 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4f4e53;
+}
+
+#section-9>a {
+    border: 1px solid #ff763f;
+    color: #ff763f;
+    box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 70px;
+}
+
+#section-9>a:hover {
+    background-color: #ebeaea;
+}
+
+
+/**************** FOOTER SECTION *****************/
+
+#footer {
+    width: 100%;
+    background-color: #4f4e53;
+}
+
+#footer-div-1 {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#social-meadia-icons>a>img {
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer-app-link {
+    margin-top: 30px;
+}
+
+#footer-app-link>a>img {
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#footer-div-2 {
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#footer-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 16px;
+}
+
+#footer-menu-img>img {
+    width: 80%;
+}
+
+#head {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1px;
+}
+
+#sub-head {
+    color: #fff;
+    font-size: 16px;
+    line-height: 37px;
+}
+
+#sub-head>a {
+    color: #fff;
+}
+
+#sub-head>a:hover {
+    color: #ff763f;
+}
+
+#footer-div-3 {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
