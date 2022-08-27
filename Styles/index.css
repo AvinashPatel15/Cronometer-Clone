@@ -195,6 +195,10 @@ a {
     text-decoration: underline;
 }
 
+#left-col-down>p>a:hover {
+    color: #ff763f;
+}
+
 #right-col {
     display: flex;
     justify-content: center;
@@ -817,3 +821,7 @@ hr {
     font-size: 19px;
     padding-bottom: 20px;
 }
+
+@media all and (min-width: 451px) and (max-width: 750px) {}
+
+@media all and (min-width: 100px) and (max-width: 450px) {}
